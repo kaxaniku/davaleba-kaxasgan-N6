@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+
+    .form-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    div{
+        margin-right: 50px;
+        label{
+            display: block;
+        }
+    }
+    button{
+    height: 20px;
+    margin-top: 18px;
+    padding: 0 5px;
+    }
+    }
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+        margin-top: 25px;
+
+        td,th{
+            padding: 8px;
+        }
+        th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+    }
+}
